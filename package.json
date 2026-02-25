@@ -1,0 +1,17 @@
+{
+  "name": "streamify",
+  "version": "1.0.0",
+  "author": "Robert Walker",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
+    "start": "npm run start --prefix backend"
+  },
+  "keywords": [
+    "real-time chat",
+    "websockets",
+    "node.js"
+  ],
+  "license": "ISC",
+  "description": "Real-time chat application"
+}
